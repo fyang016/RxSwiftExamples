@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,10 @@
 		CE7765462421225D005FB4C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7765442421225D005FB4C9 /* Main.storyboard */; };
 		CE7765482421225E005FB4C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7765472421225E005FB4C9 /* Assets.xcassets */; };
 		CE77654B2421225E005FB4C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7765492421225E005FB4C9 /* LaunchScreen.storyboard */; };
+		CE77655324212664005FB4C9 /* FilteringOperatorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77655224212664005FB4C9 /* FilteringOperatorsViewModel.swift */; };
+		CE77655524212752005FB4C9 /* TransformingOperatorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77655424212752005FB4C9 /* TransformingOperatorsViewModel.swift */; };
+		CE77655724212779005FB4C9 /* CombiningOperatorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77655624212779005FB4C9 /* CombiningOperatorsViewModel.swift */; };
+		CE77655924212792005FB4C9 /* TimeBasedOperatorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77655824212792005FB4C9 /* TimeBasedOperatorsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		CE7765472421225E005FB4C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE77654A2421225E005FB4C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE77654C2421225E005FB4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE77655224212664005FB4C9 /* FilteringOperatorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteringOperatorsViewModel.swift; sourceTree = "<group>"; };
+		CE77655424212752005FB4C9 /* TransformingOperatorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingOperatorsViewModel.swift; sourceTree = "<group>"; };
+		CE77655624212779005FB4C9 /* CombiningOperatorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombiningOperatorsViewModel.swift; sourceTree = "<group>"; };
+		CE77655824212792005FB4C9 /* TimeBasedOperatorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBasedOperatorsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,6 @@
 				C93E93224175FFDA7F9B9CF1 /* Pods-RxSwiftExamples.debug.xcconfig */,
 				0AE1E2959686AFB2A8607DFA /* Pods-RxSwiftExamples.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,6 +91,10 @@
 				CE77653E2421225D005FB4C9 /* AppDelegate.swift */,
 				CE7765402421225D005FB4C9 /* SceneDelegate.swift */,
 				CE7765422421225D005FB4C9 /* ViewController.swift */,
+				CE77655224212664005FB4C9 /* FilteringOperatorsViewModel.swift */,
+				CE77655424212752005FB4C9 /* TransformingOperatorsViewModel.swift */,
+				CE77655624212779005FB4C9 /* CombiningOperatorsViewModel.swift */,
+				CE77655824212792005FB4C9 /* TimeBasedOperatorsViewModel.swift */,
 				CE7765442421225D005FB4C9 /* Main.storyboard */,
 				CE7765472421225E005FB4C9 /* Assets.xcassets */,
 				CE7765492421225E005FB4C9 /* LaunchScreen.storyboard */,
@@ -207,7 +218,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE77655324212664005FB4C9 /* FilteringOperatorsViewModel.swift in Sources */,
+				CE77655524212752005FB4C9 /* TransformingOperatorsViewModel.swift in Sources */,
 				CE7765432421225D005FB4C9 /* ViewController.swift in Sources */,
+				CE77655724212779005FB4C9 /* CombiningOperatorsViewModel.swift in Sources */,
+				CE77655924212792005FB4C9 /* TimeBasedOperatorsViewModel.swift in Sources */,
 				CE77653F2421225D005FB4C9 /* AppDelegate.swift in Sources */,
 				CE7765412421225D005FB4C9 /* SceneDelegate.swift in Sources */,
 			);

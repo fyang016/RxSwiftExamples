@@ -15,6 +15,10 @@ class ViewController: UIViewController, UITableViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let vm = FilteringOperatorsViewModel()
+        
+        vm.filter()
+        
     }
 
     @IBAction func addButtonPressed(_ sender: Any) {
